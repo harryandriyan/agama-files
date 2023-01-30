@@ -1,1 +1,15 @@
-{}
+{
+    "kripto": {
+        "gh_author": "harryandriyan",
+        "gh_repo_path": "agama-files",
+        "project_name": "kripto",
+        "version": "0.0.1",
+        "author": "harryandriyan",
+        "author_website": "https://github.com/harryandriyan/agama-files",
+        "github_uri": "https://github.com/harryandriyan/agama-files",
+        "project_description": "kripto",
+        "license": "MIT",
+        "last_updated": "1675047960657",
+        "project_type": "community"
+    }
+}

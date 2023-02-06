@@ -23,44 +23,22 @@
 				"agamaData": {
 					"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
 					"type": "Agama-log-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-rrf-Node-f71e7824-b241-4eca-a7cf-d45f236be1a0",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-rrf-Node-f71e7824-b241-4eca-a7cf-d45f236be1a0",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
 					"callType": "Call static method",
-					"arguments": "",
+					"logLevel": "info",
 					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"displayName": "sample log"
 				}
 			},
 			"positionAbsolute": {
 				"x": 370,
 				"y": 30
-			}
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 140,
@@ -124,7 +102,7 @@
 				"x": 200,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{

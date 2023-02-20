@@ -37,7 +37,7 @@
 				"x": 370,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -63,38 +63,17 @@
 				"agamaData": {
 					"id": "Agama-rrf-Node-f71e7824-b241-4eca-a7cf-d45f236be1a0",
 					"type": "Agama-rrf-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": true,
+					"parentId": "Agama-start-Flow-cb425746-5d51-422c-b06f-03866255858e",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-start-Flow-cb425746-5d51-422c-b06f-03866255858e",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
+					"asssignedVariableName": "",
+					"comment": "this is rrf desc example",
 					"callType": "Call static method",
+					"logLevel": "info",
 					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
 					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"displayName": ""
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
@@ -102,7 +81,7 @@
 				"x": 200,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{

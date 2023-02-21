@@ -1,6 +1,50 @@
 {
 	"nodes": [
 		{
+			"width": 180,
+			"height": 110,
+			"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+			"position": {
+				"x": 590,
+				"y": 71.5
+			},
+			"type": "when",
+			"data": {
+				"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+				"type": "Agama-when-Node",
+				"parentId": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [
+					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.FAILURE",
+					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
+				],
+				"position": {
+					"x": 590,
+					"y": 71.5
+				},
+				"agamaData": {
+					"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+					"type": "Agama-when-Node",
+					"parentId": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"comment": "when you walk through the storm",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"whenVariable": "",
+					"whenValue": ""
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 590,
+				"y": 71.5
+			}
+		},
+		{
 			"width": 140,
 			"height": 85,
 			"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
@@ -31,7 +75,8 @@
 					"logLevel": "info",
 					"logMessage": "",
 					"displayName": "sample log"
-				}
+				},
+				"nextNodeType": "Agama-when-Node"
 			},
 			"positionAbsolute": {
 				"x": 370,
@@ -81,7 +126,7 @@
 				"x": 200,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -181,11 +226,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e-Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732-b09036cf-a3b6-4bbb-899c-3330a5612cd5",
+			"type": "straight",
+			"source": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
+			"target": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
-		"zoom": 1
+		"x": 176.77286490922302,
+		"y": 89.26037501099775,
+		"zoom": 0.8467453123625281
 	}
 }

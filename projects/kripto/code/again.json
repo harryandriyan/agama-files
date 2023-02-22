@@ -37,7 +37,7 @@
 					"whenValue": ""
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 590,
@@ -50,7 +50,7 @@
 			"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
 			"position": {
 				"x": 370,
-				"y": 30
+				"y": 29
 			},
 			"type": "log",
 			"data": {
@@ -62,7 +62,7 @@
 				"handles": [],
 				"position": {
 					"x": 370,
-					"y": 30
+					"y": 29
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
@@ -71,6 +71,7 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
+					"comment": "hohohohoho",
 					"callType": "Call static method",
 					"logLevel": "info",
 					"logMessage": "",
@@ -80,9 +81,9 @@
 			},
 			"positionAbsolute": {
 				"x": 370,
-				"y": 30
+				"y": 29
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -146,35 +147,12 @@
 				"agamaData": {
 					"id": "Agama-start-Flow-cb425746-5d51-422c-b06f-03866255858e",
 					"type": "Agama-start-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": true,
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
+					"flowname": "test",
+					"basepath": "tost",
+					"comment": "flowdesc",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info"
 				},
 				"inRepeatBlock": false,
 				"whenCondition": "",
@@ -246,8 +224,8 @@
 		}
 	],
 	"viewport": {
-		"x": 176.77286490922302,
-		"y": 89.26037501099775,
-		"zoom": 0.8467453123625281
+		"x": 159.57367913063013,
+		"y": 65.03658476943866,
+		"zoom": 0.7878538860493481
 	}
 }

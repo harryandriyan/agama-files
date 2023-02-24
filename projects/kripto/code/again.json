@@ -120,7 +120,7 @@
 					"arguments": "",
 					"templatePath": "",
 					"displayName": "",
-					"isDescOpen": false
+					"isDescOpen": true
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
@@ -225,8 +225,8 @@
 		}
 	],
 	"viewport": {
-		"x": 16,
-		"y": 112,
+		"x": 31,
+		"y": 71,
 		"zoom": 1
 	}
 }

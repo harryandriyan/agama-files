@@ -75,7 +75,8 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"logMessage": "",
-					"displayName": "sample log"
+					"displayName": "sample log",
+					"isDescOpen": true
 				},
 				"nextNodeType": "Agama-when-Node"
 			},
@@ -83,7 +84,7 @@
 				"x": 370,
 				"y": 29
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -128,7 +129,7 @@
 				"x": 204,
 				"y": 35
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -225,8 +226,8 @@
 		}
 	],
 	"viewport": {
-		"x": 31,
-		"y": 71,
+		"x": 55,
+		"y": 83,
 		"zoom": 1
 	}
 }

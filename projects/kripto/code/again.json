@@ -83,7 +83,7 @@
 				"x": 370,
 				"y": 29
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -91,8 +91,8 @@
 			"height": 85,
 			"id": "Agama-rrf-Node-f71e7824-b241-4eca-a7cf-d45f236be1a0",
 			"position": {
-				"x": 200,
-				"y": 30
+				"x": 204,
+				"y": 35
 			},
 			"type": "rrf",
 			"data": {
@@ -103,8 +103,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 200,
-					"y": 30
+					"x": 204,
+					"y": 35
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-f71e7824-b241-4eca-a7cf-d45f236be1a0",
@@ -119,15 +119,16 @@
 					"logLevel": "info",
 					"arguments": "",
 					"templatePath": "",
-					"displayName": ""
+					"displayName": "",
+					"isDescOpen": false
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
 			"positionAbsolute": {
-				"x": 200,
-				"y": 30
+				"x": 204,
+				"y": 35
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -224,8 +225,8 @@
 		}
 	],
 	"viewport": {
-		"x": 159.57367913063013,
-		"y": 65.03658476943866,
-		"zoom": 0.7878538860493481
+		"x": 16,
+		"y": 112,
+		"zoom": 1
 	}
 }

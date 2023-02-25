@@ -1,18 +1,18 @@
 {
 	"nodes": [
 		{
-			"width": 180,
-			"height": 110,
-			"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+			"width": 140,
+			"height": 85,
+			"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 			"position": {
-				"x": 590,
-				"y": 71.5
+				"x": 686,
+				"y": 284.5
 			},
-			"type": "when",
+			"type": "assignment",
 			"data": {
-				"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
-				"type": "Agama-when-Node",
-				"parentId": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
+				"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
+				"type": "Agama-assignment-Node",
+				"parentId": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"handles": [
@@ -20,8 +20,75 @@
 					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
 				],
 				"position": {
-					"x": 590,
-					"y": 71.5
+					"x": 686,
+					"y": 284.5
+				},
+				"agamaData": {
+					"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
+					"type": "Agama-assignment-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"whenCondition": "WhenTrue",
+					"inRepeatBlock": false,
+					"parentId": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": ""
+				}
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 686,
+				"y": 284.5
+			},
+			"dragging": false
+		},
+		{
+			"width": 180,
+			"height": 110,
+			"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+			"position": {
+				"x": 594.4868458380299,
+				"y": 79.35198021655208
+			},
+			"type": "when",
+			"data": {
+				"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+				"type": "Agama-when-Node",
+				"parentId": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
+				"whenCondition": "WhenTrue",
+				"inRepeatBlock": false,
+				"handles": [
+					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.FAILURE",
+					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
+				],
+				"position": {
+					"x": 594.4868458380299,
+					"y": 79.35198021655208
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
@@ -35,14 +102,16 @@
 					"logLevel": "info",
 					"whenVariable": "",
 					"whenValue": "",
-					"isDescOpen": true
-				}
+					"isDescOpen": true,
+					"hasSuccess": true
+				},
+				"nextNodeType": "Agama-assignment-Node"
 			},
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 590,
-				"y": 71.5
+				"x": 594.4868458380299,
+				"y": 79.35198021655208
 			}
 		},
 		{
@@ -224,11 +293,29 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732-Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7-7cc3a7b3-2c05-4be8-9d27-9b8afa9a89e6",
+			"type": "straight",
+			"source": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
+			"target": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
+			"label": "Condition met",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			},
+			"sourceHandle": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
 		}
 	],
 	"viewport": {
-		"x": 36,
-		"y": 58,
-		"zoom": 1
+		"x": 19.446983236500273,
+		"y": -91.54059187803685,
+		"zoom": 0.8914948595061277
 	}
 }

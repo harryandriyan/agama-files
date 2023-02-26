@@ -1,7 +1,7 @@
 {
 	"nodes": [
 		{
-			"width": 160,
+			"width": 165,
 			"height": 85,
 			"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 			"position": {
@@ -292,7 +292,7 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
+		"x": 131,
 		"y": 15,
 		"zoom": 1
 	}

@@ -1,7 +1,7 @@
 {
 	"nodes": [
 		{
-			"width": 140,
+			"width": 160,
 			"height": 85,
 			"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 			"position": {
@@ -26,41 +26,19 @@
 				"agamaData": {
 					"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 					"type": "Agama-assignment-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
-					"parentId": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
+					"asssignedVariableName": "",
+					"comment": "description of the assigment",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"assignmentExpression": "",
+					"displayName": "hehehe"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 686,
 				"y": 284.5
@@ -80,7 +58,7 @@
 				"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
 				"type": "Agama-when-Node",
 				"parentId": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
-				"whenCondition": "WhenTrue",
+				"whenCondition": "",
 				"inRepeatBlock": false,
 				"handles": [
 					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.FAILURE",
@@ -107,7 +85,7 @@
 				},
 				"nextNodeType": "Agama-assignment-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 594.4868458380299,
@@ -314,8 +292,8 @@
 		}
 	],
 	"viewport": {
-		"x": 19.446983236500273,
-		"y": -91.54059187803685,
-		"zoom": 0.8914948595061277
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }

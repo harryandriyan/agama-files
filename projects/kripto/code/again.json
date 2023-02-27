@@ -70,7 +70,7 @@
 			"height": 85,
 			"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 			"position": {
-				"x": 686,
+				"x": 683,
 				"y": 284.5
 			},
 			"type": "assignment",
@@ -85,7 +85,7 @@
 					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
 				],
 				"position": {
-					"x": 686,
+					"x": 683,
 					"y": 284.5
 				},
 				"agamaData": {
@@ -107,7 +107,7 @@
 			},
 			"selected": true,
 			"positionAbsolute": {
-				"x": 686,
+				"x": 683,
 				"y": 284.5
 			},
 			"dragging": false
@@ -117,8 +117,8 @@
 			"height": 110,
 			"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
 			"position": {
-				"x": 594.4868458380299,
-				"y": 79.35198021655208
+				"x": 586.4868458380299,
+				"y": 75.35198021655208
 			},
 			"type": "when",
 			"data": {
@@ -132,8 +132,8 @@
 					"Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732.SUCCESS"
 				],
 				"position": {
-					"x": 594.4868458380299,
-					"y": 79.35198021655208
+					"x": 586.4868458380299,
+					"y": 75.35198021655208
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-167eb70b-bc50-4317-9923-bdc783627732",
@@ -155,8 +155,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 594.4868458380299,
-				"y": 79.35198021655208
+				"x": 586.4868458380299,
+				"y": 75.35198021655208
 			}
 		},
 		{
@@ -164,8 +164,8 @@
 			"height": 85,
 			"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
 			"position": {
-				"x": 387,
-				"y": 37
+				"x": 390,
+				"y": 35
 			},
 			"type": "log",
 			"data": {
@@ -176,8 +176,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 387,
-					"y": 37
+					"x": 390,
+					"y": 35
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-064c1456-46a4-4a67-bcbf-aaa6d4cbd47e",
@@ -196,8 +196,8 @@
 				"nextNodeType": "Agama-when-Node"
 			},
 			"positionAbsolute": {
-				"x": 387,
-				"y": 37
+				"x": 390,
+				"y": 35
 			},
 			"selected": false,
 			"dragging": false
@@ -257,8 +257,8 @@
 				"id": "Agama-start-Flow-cb425746-5d51-422c-b06f-03866255858e",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 30,
-					"y": 30
+					"x": 29,
+					"y": 35
 				},
 				"handles": [],
 				"agamaData": {
@@ -276,12 +276,12 @@
 				"nextNodeType": "Agama-rrf-Node"
 			},
 			"position": {
-				"x": 30,
-				"y": 30
+				"x": 29,
+				"y": 35
 			},
 			"positionAbsolute": {
-				"x": 30,
-				"y": 30
+				"x": 29,
+				"y": 35
 			},
 			"selected": false,
 			"dragging": false
@@ -376,8 +376,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": 120,
+		"y": 105,
 		"zoom": 1
 	}
 }

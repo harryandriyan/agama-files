@@ -66,7 +66,7 @@
 			}
 		},
 		{
-			"width": 140,
+			"width": 165,
 			"height": 85,
 			"id": "Agama-assignment-Node-4a14c0b9-9ef8-42c8-8029-238494b3fef7",
 			"position": {
@@ -101,7 +101,7 @@
 					"logLevel": "info",
 					"assignmentExpression": "",
 					"displayName": "hehehe",
-					"isDescOpen": true
+					"isDescOpen": false
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
@@ -376,8 +376,8 @@
 		}
 	],
 	"viewport": {
-		"x": 120,
-		"y": 105,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }

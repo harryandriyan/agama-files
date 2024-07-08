@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+      "type": "start",
+      "sourcePosition": "right",
+      "data": {
+        "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+        "type": "Agama-start-Flow",
+        "position": {
+          "x": 30,
+          "y": 30
+        },
+        "inRepeatBlock": false,
+        "agamaData": {
+          "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+          "type": "Agama-start-Flow",
+          "flowname": "login.harryam.id",
+          "displayName": "Login",
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": ""
+        }
+      },
+      "position": {
+        "x": 30,
+        "y": 30
+      }
+    }
+  ]
+}

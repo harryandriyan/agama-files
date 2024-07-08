@@ -25,16 +25,19 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "",
-					"javaClassName": "",
-					"javaMethodName": "",
+					"javaClassName": "java.lang.Integer",
+					"javaMethodName": "login",
 					"javaVariableName": "",
-					"exceptionVariableField": "",
+					"exceptionVariableField": "E",
 					"callType": "Call static method",
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"arguments": [],
-					"nodeIcon": "material-symbols:code"
+					"arguments": [
+						"email, password"
+					],
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "obj"
 				},
 				"skake": true
 			},

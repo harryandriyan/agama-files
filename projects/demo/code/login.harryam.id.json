@@ -1,35 +1,114 @@
 {
-  "nodes": [
-    {
-      "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
-      "type": "start",
-      "sourcePosition": "right",
-      "data": {
-        "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
-        "type": "Agama-start-Flow",
-        "position": {
-          "x": 30,
-          "y": 30
-        },
-        "inRepeatBlock": false,
-        "agamaData": {
-          "id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
-          "type": "Agama-start-Flow",
-          "flowname": "login.harryam.id",
-          "displayName": "Login",
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": ""
-        }
-      },
-      "position": {
-        "x": 30,
-        "y": 30
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "Agama-call-Node-1db92ffd-3b32-4b26-b28f-260ee3b8c67e",
+			"position": {
+				"x": 570,
+				"y": -170.00000000000003
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-1db92ffd-3b32-4b26-b28f-260ee3b8c67e",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+				"whenCondition": "WhenFalse",
+				"inRepeatBlock": false,
+				"inIterateBlock": false,
+				"position": {
+					"x": 570,
+					"y": -170.00000000000003
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-1db92ffd-3b32-4b26-b28f-260ee3b8c67e",
+					"parentId": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+					"type": "Agama-call-Node",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"exceptionVariableField": "",
+					"callType": "Call static method",
+					"whenCondition": "WhenFalse",
+					"inRepeatBlock": false,
+					"inIterateBlock": false,
+					"arguments": [],
+					"nodeIcon": "material-symbols:code"
+				}
+			},
+			"width": 170,
+			"height": 124,
+			"selected": true,
+			"positionAbsolute": {
+				"x": 570,
+				"y": -170.00000000000003
+			},
+			"dragging": false
+		},
+		{
+			"id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 239.33333333333326,
+					"y": -12.666666666666686
+				},
+				"inRepeatBlock": false,
+				"agamaData": {
+					"id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+					"type": "Agama-start-Flow",
+					"flowname": "login.harryam.id",
+					"displayName": "Login",
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": ""
+				},
+				"skake": false
+			},
+			"position": {
+				"x": 239.33333333333326,
+				"y": -12.666666666666686
+			},
+			"width": 170,
+			"height": 124,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 239.33333333333326,
+				"y": -12.666666666666686
+			},
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782-Agama-call-Node-1db92ffd-3b32-4b26-b28f-260ee3b8c67e-72bb9329-a534-428b-8f01-0fac7e01e0e0",
+			"type": "default",
+			"source": "Agama-start-Flow-fadebc41-7399-456b-bfbf-2dd719040782",
+			"target": "Agama-call-Node-1db92ffd-3b32-4b26-b28f-260ee3b8c67e",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#bee0d2",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 332.25,
+		"zoom": 0.75
+	}
 }

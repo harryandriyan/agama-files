@@ -1,1 +1,18 @@
-{}
+{
+    "demo": {
+        "projectName": "demo",
+        "description": "Demo Project",
+        "type": "community",
+        "author": "harryandriyan",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/harryandriyan/agama-files",
+        "githubUri": "https://github.com/harryandriyan/agama-files",
+        "license": "apache-2.0",
+        "lastUpdated": "1720413811649",
+        "tags": [
+            "community"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}

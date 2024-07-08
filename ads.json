@@ -13,6 +13,9 @@
             "community"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "login.harryam.id": {}
+        },
+        "name": "demo"
     }
 }
